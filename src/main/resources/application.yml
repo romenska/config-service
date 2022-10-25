@@ -7,5 +7,6 @@ spring:
     config:
       server:
         native:
-          search-locations: C:\Users\Romenska Olha\IdeaProjects\config-service\src\main\resources\config
+          search-locations: C:\Users\Romenska Olha\IdeaProjects\Spring cloud\config-service\src\main\resources\config
+
 
