@@ -1,0 +1,16 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/test
+    username: sa
+    password:
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8766/eureka
+  instance:
+    prefer-ip-address: true
+
+
